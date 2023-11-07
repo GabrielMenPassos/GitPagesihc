@@ -4,27 +4,28 @@
     <div class="container">
       <div class="row">
         <div class="footer-col col-md-4">
-          <h3>{{ site.footer.location }}</h3>
+          <h3>LOCALIZAÇÃO</h3>
           <p>
-            {% for adress in site.address %}
-            {{ adress.line }} <br>
-            {% endfor %}
+            1233 Via Rosalina,
+            Campo-Mourão, PR
+            87301-899
           </p>
         </div>
         <div class="footer-col col-md-4">
-          <h3>{{ site.footer.social }}</h3>
+          <h3></h3>
+          <ul class="list-inline">
+
+        </div>
+        <div class="footer-col col-md-4">
+           <h3>REDES SOCIAIS</h3>
           <ul class="list-inline">
             {% for network in site.social %}
             <li>
               <a href="{{ network.url }}" class="btn-social btn-outline"><i
-                  class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+                  class="fa-brands fa-fw fa-"></i></a>
             </li>
             {% endfor %}
           </ul>
-        </div>
-        <div class="footer-col col-md-4">
-          <h3>{{ site.footer.credits }}</h3>
-          <p>{{ site.credits }}</p>
         </div>
       </div>
     </div>
