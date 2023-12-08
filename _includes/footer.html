@@ -12,17 +12,14 @@
           </p>
         </div>
         <div class="footer-col col-md-4">
-          <h3></h3>
-          <ul class="list-inline">
-
+          <!-- Alguma coisa que deveria estar aqui? -->
         </div>
         <div class="footer-col col-md-4">
            <h3>REDES SOCIAIS</h3>
           <ul class="list-inline">
             {% for network in site.social %}
             <li>
-              <a href="{{ network.url }}" class="btn-social btn-outline"><i
-                  class="fa-brands fa-fw fa-"></i></a>
+              <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa-brands fa-fw fa-{{ network.icon }}"></i></a>
             </li>
             {% endfor %}
           </ul>

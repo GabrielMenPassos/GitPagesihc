@@ -40,10 +40,13 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
+    icon: twitter
     url: http://twitter.com/
   - title: facebook
+    icon: facebook
     url: http://facebook.com/
   - title: instagram
+    icon: instagram
     url: http://instagram.com/
 
 # Postal address (add as many lines as necessary)
